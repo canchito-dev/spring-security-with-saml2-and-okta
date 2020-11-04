@@ -8,9 +8,9 @@
 		<version>2.3.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.flowable</groupId>
+	<groupId>com.canchitodev</groupId>
 	<artifactId>saml-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	<name>saml-demo</name>
 	<description>Demo project for Spring Boot and SAML2</description>

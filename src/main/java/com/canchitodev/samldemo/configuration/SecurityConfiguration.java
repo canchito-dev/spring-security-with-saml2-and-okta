@@ -1,4 +1,4 @@
-package com.flowable.samldemo.configuration;
+package com.canchitodev.samldemo.configuration;
 
 import org.opensaml.saml.saml2.core.Assertion;
 import org.springframework.context.annotation.Bean;

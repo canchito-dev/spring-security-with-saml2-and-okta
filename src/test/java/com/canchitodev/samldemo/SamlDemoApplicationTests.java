@@ -1,4 +1,4 @@
-package com.flowable.samldemo;
+package com.canchitodev.samldemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

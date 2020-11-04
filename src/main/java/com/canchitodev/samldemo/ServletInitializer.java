@@ -1,4 +1,4 @@
-package com.flowable.samldemo;
+package com.canchitodev.samldemo;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

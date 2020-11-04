@@ -1,4 +1,4 @@
-package com.flowable.samldemo;
+package com.canchitodev.samldemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

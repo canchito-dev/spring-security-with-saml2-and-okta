@@ -1,4 +1,4 @@
-package com.flowable.samldemo.controller;
+package com.canchitodev.samldemo.controller;
 
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.saml2.provider.service.authentication.Saml2AuthenticatedPrincipal;
