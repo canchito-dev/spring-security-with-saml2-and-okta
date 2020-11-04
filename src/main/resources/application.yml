@@ -1,0 +1,22 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /spring-saml
+#  ssl:
+#    enabled: true
+#    key-alias: spring
+#    key-store: "classpath:saml/keystore.jks"
+#    key-store-password: secret
+
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          okta:
+            identityprovider:
+              entity-id: http://www.okta.com/exkj045wmGr8Cqbtk5d5
+              verification.credentials:
+                - certificate-location: "classpath:saml/okta.cert"
+              singlesignon.url: https://dev-2893509.okta.com/app/mimacomdev2893509_springsaml_2/exkj045wmGr8Cqbtk5d5/sso/saml
+              singlesignon.sign-request: false
