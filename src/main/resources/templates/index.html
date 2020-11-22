@@ -17,11 +17,5 @@
 </div>
 <h1>SAML 2.0 Login with Spring Security</h1>
 <p>You are successfully logged in as <span sec:authentication="name"></span></p>
-<p>You're email address is <span th:text="${emailAddress}"></span></p>
-<h2>All Your Attributes</h2>
-<dl th:each="userAttribute : ${userAttributes}">
-    <dt th:text="${userAttribute.key}"></dt>
-    <dd th:text="${userAttribute.value}"></dd>
-</dl>
 </body>
 </html>
