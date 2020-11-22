@@ -254,7 +254,7 @@ Since you chose Thymeleaf when creating your application, you can create a `src/
 ```
 
 ## Time to Run the App and Login with Okta
-Start the app using your IDE or `mvn spring-boot:run` and afterwards, user your favorite browser and navigate to `https://localhost:8443`. It is likely that you will see a privacy error.
+Start the app using your IDE or `mvn spring-boot:run` and afterwards, user your favorite browser and navigate to `https://localhost:8443/spring-saml`. It is likely that you will see a privacy error.
 
 ![Browser without private connection](images/browser-not-private-connection.PNG)
 
