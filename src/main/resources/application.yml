@@ -48,8 +48,8 @@ spring:
         registration:
           okta:
             identityprovider:
-              entity-id: YOUR-ENTITY-ID-URL
+              entity-id: http://www.okta.com/exkrrk0mYG9Vwe8wA5d5
               verification.credentials:
                 - certificate-location: "classpath:saml/okta.cert"
-              singlesignon.url: YOUR-SSO-URL
+              singlesignon.url: https://dev-5847200.okta.com/app/dev-5847200_springsaml_1/exkrrk0mYG9Vwe8wA5d5/sso/saml
               singlesignon.sign-request: false
