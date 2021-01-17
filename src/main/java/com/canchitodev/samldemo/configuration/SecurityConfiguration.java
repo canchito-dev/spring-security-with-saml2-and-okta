@@ -54,8 +54,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         // The builder will ensure the passwords are encoded before saving in memory
         User.UserBuilder users = User.withDefaultPasswordEncoder();
         UserDetails user = users
-                .username("contact@canchito-dev.com")
-                .password("gtOkta2020")
+                .username("YOUR_OKTA_USER")
+                .password("YOUR_OKTA_USER_PWD")
                 .roles("USER", "ADMIN")
                 .build();
         return new InMemoryUserDetailsManager(user);
