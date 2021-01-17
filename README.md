@@ -39,8 +39,8 @@ Once you reach the next screen, you will be prompted for an application name. In
 
 Now you have reached the second step, configuring SAML. Enter the following values:
 
--   Single sign on URL:  `https://localhost:8443/saml/SSO`
--   Audience URI (SP Entity Id):  `https://localhost:8443/saml/metadata`
+- Single sign on URL:  `https://localhost:8443/spring-saml/login/saml2/sso/okta`
+- Audience URI (SP Entity Id):  `https://localhost:8443/spring-saml/saml2/service-provider-metadata/okta`
 - Use this for Recipient URL and Destination URL: Make sure it is checked.
 
 ![Create SAML Integration, SAML Settings](images/okta-developer-saml-integration-saml-settings.PNG)
